@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 import "./styles.css";
 
@@ -7,25 +8,25 @@ export default function NavBar() {
       <ul className="nav">
         <div className="nav_left">
           <li className="nav_item">
-            <a className="nav_link nav_branding" href="/">
+            <Link className="nav_link nav_branding" to="/">
               <h2>miTienda</h2>
-            </a>
+            </Link>
           </li>
           <div className="nav_main">
             <li className="nav_item">
-              <a className="nav_link" href="/">
+              <Link className="nav_link" to="/category/remeras">
                 Remeras
-              </a>
+              </Link>
             </li>
             <li className="nav_item">
-              <a className="nav_link" href="/">
+              <Link className="nav_link" to="/category/camperas">
                 Camperas
-              </a>
+              </Link>
             </li>
             <li className="nav_item">
-              <a className="nav_link" href="/">
+              <Link className="nav_link" to="/category/zapatillas">
                 Zapatillas
-              </a>
+              </Link>
             </li>
           </div>
         </div>
