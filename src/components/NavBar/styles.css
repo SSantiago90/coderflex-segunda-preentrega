@@ -1,0 +1,43 @@
+.nav{
+  padding: 12px 2em;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 90px;  
+  height: 90px;
+  background-color: rgb(233, 244, 75);
+}
+
+
+.nav_left{
+  display: flex;
+  align-items: baseline;
+}
+
+.nav_main{
+  margin-left: 2em;
+  display: flex;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+}
+
+.nav_main>.nav_item{
+  font-size: 0.85em;
+  margin: 0px 8px;
+}
+
+.nav_item{  
+  font-weight:400;
+}
+
+.nav_branding{
+  color:rgb(44, 42, 69);  
+  font-size: 1.05em;
+}
+
+.nav_link{  
+  color:rgb(56, 56, 52);
+  text-decoration: none;
+}
+
